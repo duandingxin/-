@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1334</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>数据可视化工具</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1334</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_Excel"/>
+    <addaction name="action_XML"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>中英文切换</string>
+     </property>
+     <addaction name="action_4"/>
+     <addaction name="action_5"/>
+    </widget>
+    <widget class="QMenu" name="menu_5">
+     <property name="title">
+      <string>风格主题切换</string>
+     </property>
+     <addaction name="action_6"/>
+     <addaction name="action_7"/>
+     <addaction name="action_8"/>
+    </widget>
+    <addaction name="menu_4"/>
+    <addaction name="menu_5"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_3"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_AllMode"/>
+   <addaction name="action_oneMode"/>
+   <addaction name="separator"/>
+   <addaction name="actionzoomIn"/>
+   <addaction name="actionzoomOut"/>
+   <addaction name="separator"/>
+   <addaction name="action_restore"/>
+   <addaction name="action_CurveAdaptation"/>
+   <addaction name="separator"/>
+   <addaction name="actionClearAllWidget"/>
+   <addaction name="separator"/>
+   <addaction name="action_savePNG"/>
+   <addaction name="action_setWidgetNumber"/>
+  </widget>
+  <action name="actionzoomIn">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/zoomIn.png</normaloff>:/DockWidget/Icon/zoomIn.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionzoomOut">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/zoomOut.png</normaloff>:/DockWidget/Icon/zoomOut.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>导出数据</string>
+   </property>
+   <property name="toolTip">
+    <string>导出Excel数据</string>
+   </property>
+  </action>
+  <action name="action_savePNG">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/savePng2.png</normaloff>:/DockWidget/Icon/savePng2.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为图片</string>
+   </property>
+  </action>
+  <action name="actionClearAllWidget">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/Clear1.png</normaloff>:/DockWidget/Icon/Clear1.png</iconset>
+   </property>
+   <property name="text">
+    <string>清空窗口</string>
+   </property>
+   <property name="toolTip">
+    <string>清空所有窗口</string>
+   </property>
+  </action>
+  <action name="action_restore">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/renew.png</normaloff>:/DockWidget/Icon/renew.png</iconset>
+   </property>
+   <property name="text">
+    <string>恢复缩放</string>
+   </property>
+   <property name="toolTip">
+    <string>恢复缩放比例</string>
+   </property>
+  </action>
+  <action name="action_CurveAdaptation">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/action_CurveAdaptation.png</normaloff>:/DockWidget/Icon/action_CurveAdaptation.png</iconset>
+   </property>
+   <property name="text">
+    <string>曲线自适应</string>
+   </property>
+   <property name="toolTip">
+    <string>曲线自适应窗口</string>
+   </property>
+  </action>
+  <action name="action_SetSize">
+   <property name="text">
+    <string>设置窗口大小</string>
+   </property>
+   <property name="toolTip">
+    <string>设置窗口大小</string>
+   </property>
+  </action>
+  <action name="action_setWidgetNumber">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/setCustom.png</normaloff>:/DockWidget/Icon/setCustom.png</iconset>
+   </property>
+   <property name="text">
+    <string>设置窗口数</string>
+   </property>
+   <property name="toolTip">
+    <string>设置每一列展示窗口的数量</string>
+   </property>
+  </action>
+  <action name="action_AllMode">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/all3.png</normaloff>:/DockWidget/Icon/all3.png</iconset>
+   </property>
+   <property name="text">
+    <string>全窗口模式</string>
+   </property>
+   <property name="toolTip">
+    <string>全窗口模式</string>
+   </property>
+  </action>
+  <action name="action_oneMode">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/oneWindows.png</normaloff>:/DockWidget/Icon/oneWindows.png</iconset>
+   </property>
+   <property name="text">
+    <string>单窗口模式</string>
+   </property>
+   <property name="toolTip">
+    <string>单窗口模式</string>
+   </property>
+  </action>
+  <action name="action_Excel">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/open_excel.png</normaloff>:/DockWidget/Icon/open_excel.png</iconset>
+   </property>
+   <property name="text">
+    <string>加载Excel数据</string>
+   </property>
+  </action>
+  <action name="action_XML">
+   <property name="icon">
+    <iconset resource="Icon.qrc">
+     <normaloff>:/DockWidget/Icon/open_xml.png</normaloff>:/DockWidget/Icon/open_xml.png</iconset>
+   </property>
+   <property name="text">
+    <string>加载XML数据</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>操作手册</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>中文</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>英文</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>黑色</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>白色</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>蓝色</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
