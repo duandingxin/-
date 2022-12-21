@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>DockWidget/Icon/close_dockwidget_hover.png</file>
+        <file>DockWidget/Icon/close_dockwidget_normal.png</file>
+        <file>DockWidget/Icon/close_dockwidget_pressed.png</file>
+        <file>DockWidget/Icon/menu_dockwidget_hover.png</file>
+        <file>DockWidget/Icon/menu_dockwidget_normal.png</file>
+        <file>DockWidget/Icon/menu_dockwidget_pressed.png</file>
+        <file>DockWidget/Icon/pin_dockwidget_hover.png</file>
+        <file>DockWidget/Icon/pin_dockwidget_normal.png</file>
+        <file>DockWidget/Icon/pin_dockwidget_pressed.png</file>
+        <file>DockWidget/Icon/unpin_dockwidget_hover.png</file>
+        <file>DockWidget/Icon/unpin_dockwidget_normal.png</file>
+        <file>DockWidget/Icon/unpin_dockwidget_pressed.png</file>
+        <file>DockWidget/Icon/zoomIn.png</file>
+        <file>DockWidget/Icon/zoomOut.png</file>
+        <file>DockWidget/Icon/renew.png</file>
+        <file>DockWidget/Icon/AllWidget.png</file>
+        <file>DockWidget/Icon/action_CurveAdaptation.png</file>
+        <file>DockWidget/Icon/action_hideBackground.png</file>
+        <file>DockWidget/Icon/action_oneMode.png</file>
+        <file>DockWidget/Icon/action_savePNG.png</file>
+        <file>DockWidget/Icon/action_setBackstyle.png</file>
+        <file>DockWidget/Icon/action_SetSize.png</file>
+        <file>DockWidget/Icon/action_setWidgetNumber.png</file>
+        <file>DockWidget/Icon/action_showBackground.png</file>
+        <file>DockWidget/Icon/actionClearAllWidget.png</file>
+        <file>DockWidget/Icon/actionExport.png</file>
+        <file>DockWidget/Icon/actionX_axial.png</file>
+        <file>DockWidget/Icon/actionY_axial.png</file>
+        <file>DockWidget/Icon/oneWindows.png</file>
+        <file>DockWidget/Icon/resetCustom.png</file>
+        <file>DockWidget/Icon/Clear1.png</file>
+        <file>DockWidget/Icon/clear2.png</file>
+        <file>DockWidget/Icon/savePng.png</file>
+        <file>DockWidget/Icon/setCustom.png</file>
+        <file>DockWidget/Icon/savePng2.png</file>
+        <file>DockWidget/Icon/all1.png</file>
+        <file>DockWidget/Icon/all2.png</file>
+        <file>DockWidget/Icon/all3.png</file>
+        <file>DockWidget/Icon/open_excel.png</file>
+        <file>DockWidget/Icon/open_xml.png</file>
+        <file>wait.gif</file>
+    </qresource>
+</RCC>
